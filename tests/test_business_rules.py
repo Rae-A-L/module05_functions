@@ -1,4 +1,9 @@
-from business_rules import (requires_review,calculate_total,get_approval_tier,apply_discount,)
+from business_rules import (
+    apply_discount,
+    calculate_total,
+    get_approval_tier,
+    requires_review,
+)
 
 
 def test_requires_review_over():
